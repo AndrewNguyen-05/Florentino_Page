@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+.header,
+.footer{
+    height: 80px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+    padding-right: 140px;
+    padding-top: 12px;
+}
+
+.header .logo{
+    font-size: 25px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.footer{
+    color: #ccc;
+    justify-content: center;
+}
+
+.banner{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 140px;
+    gap: 16px;
+}
+
+.banner .title{
+    font-size: 48px;
+    font-weight: 700;
+    color:#F9FAF8; 
+    
+}
+
+.banner .text{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.banner .buttons{
+    width: 125px;
+    height: 35px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    border: none;
+    color: #F9FAF8;
+    font-size: 19px;
+    font-weight: 540;
+    
+}
+
+.banner .text{
+    color: #ccc;
+    margin: 10px 0;
+}
+
+.variation{
+    margin-bottom: 100px;   
+}
+
+.variation .title{
+    text-align: center;
+    margin: 40px 0px;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.skins{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card .text{
+    text-align: center;
+    width: 180px;
+    /* text-wrap: balance; */
+    text-align: justify;
+    font-weight: 500;
+    color: #595959;
+    margin-top: 5px;
+}
+
+.card img{
+    width: 185px;
+    height: 160px;
+    border: 4px solid #4d79ff;
+    border-radius: 15px;
+}
+
+.quote{
+    height: 350px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote .text{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote .author{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+.signup{
+    height: 300px;
+}
+
+.default{
+    width: 620px;
+    height: 270px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 22px;
+}
+
+a{
+    font-size: 17px;
+    color: #ccc;
+    text-decoration: none;
+    
+}
