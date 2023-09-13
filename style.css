@@ -24,6 +24,7 @@ body {
 }
 
 .footer{
+    font-size: 20px;
     color: #ccc;
     justify-content: center;
 }
@@ -40,7 +41,6 @@ body {
     font-size: 48px;
     font-weight: 700;
     color:#F9FAF8; 
-    
 }
 
 .banner .text{
@@ -49,15 +49,14 @@ body {
 }
 
 .banner .buttons{
-    width: 125px;
-    height: 35px;
+    width: 130px;
+    height: 37px;
     background-color: #3882F6;
-    border-radius: 10px;
+    border-radius: 7px;
     border: none;
     color: #F9FAF8;
     font-size: 19px;
     font-weight: 540;
-    
 }
 
 .banner .text{
@@ -126,6 +125,43 @@ body {
 
 .signup{
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #3882F6;
+    width: 1000px;
+    height: 120px;
+    border-radius: 7px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box .buttons{
+    border-radius: 7px;
+    width: 130px;
+    height: 37px;
+    background-color: #3882F6;
+    border-radius: 7px;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.box .title{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.box .text{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .default{
@@ -143,5 +179,4 @@ a{
     font-size: 17px;
     color: #ccc;
     text-decoration: none;
-    
 }
