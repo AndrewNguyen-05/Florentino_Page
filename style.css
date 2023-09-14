@@ -51,13 +51,19 @@ body {
 .banner .buttons{
     width: 130px;
     height: 37px;
-    background-color: #3882F6;
+    background-color: #3882f6;
     border-radius: 7px;
     border: none;
     color: #F9FAF8;
     font-size: 19px;
     font-weight: 540;
 }
+
+.banner .buttons:hover {
+    background-color: #0a5adb;
+    color: #F9FAF8;
+}
+
 
 .banner .text{
     color: #ccc;
@@ -153,6 +159,11 @@ body {
     font-weight: 500;
 }
 
+.box .buttons:hover {
+    background-color: #F9FAF8;
+    color: #0a5adb;
+}
+
 .box .title{
     font-size: 25px;
     font-weight: 700;
@@ -179,4 +190,8 @@ a{
     font-size: 17px;
     color: #ccc;
     text-decoration: none;
+}
+
+a:hover{
+    color: white;
 }
